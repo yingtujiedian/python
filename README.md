@@ -16,3 +16,13 @@ python main.py -p $PORT --debug
 打开.idx文件夹里的dev.nix  将第7行的 packages = [ pkgs.python3 ]; 改为 packages = [ pkgs.python3 pkgs.openssl_3_3.bin ];   ctrl +s 保存，右下角出现紫色 Rebuild Environment 按钮 点击会自动重新部署
 
 信息在.cache文件夹下的sub.txt里
+
+代码来源于:
+
+老王 sing-box for IDX:
+
+https://github.com/eooce/Sing-box/releases/tag/other
+
+老王脚本库:
+
+https://github.com/eooce
