@@ -4,7 +4,7 @@
 
 # 部署
 
-常规python环境，例如游戏平台玩具，只需上传main.py和requirements.txt和start.sh三个文件即可，main.py需授权777,start.sh填写变量。如argo，uuid等
+常规python环境，例如游戏平台玩具，只需上传main.py和requirements.txt和start.sh三个文件即可，main.py，start.sh需授权744到777,start.sh填写变量。如argo，uuid等
 
 信息可在worlds文件里list.log查看
 
